@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageOutputPath>D:\PROG\LocalNuget\libsndfile.NET8</PackageOutputPath>
+
+
+		<!-- NuGet package metadata -->
+		<PackageId>libsndfile.NET8</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>cuip</Authors>
+		<Product>libsndfile.NET8</Product>
+		<Description>libsndfile C# wrapper .NET 8 with mp3 support</Description>
+		<PackageTags>library</PackageTags>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="native/win/x64/libsndfile-1.dll">
+			<Pack>true</Pack>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<PackagePath>runtimes/win-x64/native/libsndfile-1.dll</PackagePath>
+		</Content>
+
+		<Content Include="native/win/x64/libsndfile-1.dll">
+			<Pack>true</Pack>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<PackagePath>runtimes/win-x64/native/libsndfile-1.dll</PackagePath>
+		</Content>
+
+		<Content Include="native/macos/libsndfile-1.dylib">
+			<Pack>true</Pack>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<PackagePath>runtimes/osx/native/libsndfile-1.dylib</PackagePath>
+		</Content>
+
+
+	</ItemGroup>
+
+</Project>
