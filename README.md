@@ -1,6 +1,6 @@
 # libsndfile.NET8
 
-[![NuGet](https://img.shields.io/nuget/v/libsndfile.NET8.svg)](https://www.nuget.org/packages/libsndfile.NET8/1.0.1)
+[![NuGet](https://img.shields.io/nuget/v/libsndfile.NET8.svg)](https://www.nuget.org/packages/libsndfile.NET8/)
 
 This repository is an upgrade and update to an existing one (not associated with this repository) found at:  
 https://github.com/aybe/libsndfile.NET
