@@ -11,7 +11,7 @@ Among other functions, libsndfile allows reading and writing of audio files in n
 
 Since libsndfile.NET was uploaded, the original libsndfile library has been updated to be able to read/write mp3 files, and this repo adds that corresponding support in the SfFormats of:
 
-SfFormatMajor.MPEG
+SfFormatMajor.MPEG 
 SfFormatSubtype.MPEG_LAYER_III, 
 and their combination as:
 SfFormat.DefaultMp3
